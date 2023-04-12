@@ -1,1 +1,3 @@
-document.getElementsByTagName('iframe')[0].src = prompt('URL:');
+var url = prompt('URL:')
+var frame = document.createElement('iframe'); frame.src = url;
+document.body.appendChild(frame);
