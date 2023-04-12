@@ -1,2 +1,1 @@
-//document.getElementsByTagName('iframe')[0].src = prompt('url');
-prompt();
+document.getElementsByTagName('iframe')[0].src = prompt('URL:');
