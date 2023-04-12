@@ -1,3 +1,3 @@
 
-var url = new URL(window.location.href).searchParams.get('url'); ?? "https://google.com";
-var frame = document.createElement('iframe'); frame.src = url;
+var url = new URL(window.location.href).searchParams.get('url');
+var frame = document.getElementsByTagName('iframe')[0]; frame.src = url ?? prompt('URL: ');
