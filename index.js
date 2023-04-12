@@ -1,1 +1,2 @@
-document.getElementById('frame').src = prompt("Enter URL here (https:// required)");
+var frame = document.createElement('iframe'); frame.src = prompt("Enter URL here (https:// required)");
+document.body.appendChild(frame);
